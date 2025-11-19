@@ -1,0 +1,26 @@
+// Mixin para bloques repetidos (inicio / info)
+@mixin bloque-base {
+  max-width: $max-ancho;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+// Secciones internas
+@mixin seccion-base {
+  background: #ffffff;
+  padding: 25px 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: $shadow-default;
+
+  h2 {
+    margin-bottom: 10px;
+    color: $color-principal;
+  }
+
+  p {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+}

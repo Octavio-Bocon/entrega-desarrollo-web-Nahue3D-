@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'mixins';
+@import 'inicio';
+@import 'info';
+@import 'navbar';
+@import 'catalogo';
+@import 'productos';
+@import 'footer';
+
+// Reglas generales
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $color-fondo;
+  color: $color-texto;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.p {
+  text-align: center;
+  background-color: $color-texto;
+  color: white;
+  padding: 10px 0;
+  margin: 20px 0;
+}
